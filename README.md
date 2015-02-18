@@ -6,6 +6,9 @@ Easy to hack and customize, dump-lib is very small and intuitive
 
 
 ## How to
+
+include `dump-lib.js` in the head then use `dump()` instead of `console.log()`
+
 ```
 dump.blue('dump.blue');
 dump.red('dump.red');
@@ -26,6 +29,16 @@ dump.primary5x('dump.primary5x');
 dump.primary6x('dump.primary6x');
 ```
 
-Hack away
+![Image of Yaktocat](https://github.com/patrioticcow/dump-lib/blob/master/screen_a.png)
 
-MIT licence
+![Image of Yaktocat](https://github.com/patrioticcow/dump-lib/blob/master/screen_b.png)
+
+## How to change the colors
+
+The colors are represented by an object: `{name: 'blue', value: {background: 'none', color: '#170591'}}` 
+
+Same for the different sizes: `{name: '2x', value: '14'}` 
+
+## Hack away
+
+## MIT licence
