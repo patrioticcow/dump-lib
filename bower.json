@@ -1,0 +1,27 @@
+{
+  "name": "dump-lib",
+  "main": "dump-lib.js",
+  "version": "0.0.7",
+  "homepage": "https://github.com/patrioticcow/dump-lib",
+  "authors": [
+    "Cristi <cristi.catea@gmail.com>"
+  ],
+  "description": "Dump with technique",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "console",
+    "log",
+    "dump"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
