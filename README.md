@@ -6,6 +6,7 @@ Easy to hack and customize, dump-lib is very small and intuitive
 
 
 ## How to
+```
 dump.blue('dump.blue');
 dump.red('dump.red');
 dump.green('dump.green');
@@ -23,7 +24,7 @@ dump.primary3x('dump.primary3x');
 dump.primary4x('dump.primary4x');
 dump.primary5x('dump.primary5x');
 dump.primary6x('dump.primary6x');
-
+```
 
 Hack away
 
