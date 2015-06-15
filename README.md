@@ -7,7 +7,9 @@ Easy to hack and customize, dump-lib is very small and intuitive
 
 ## How to
 
-include `dump-lib.js` in the head then use `dump()` instead of `console.log()`
+Using bower: `bower install dump-lib --save`
+
+Using include: add `dump-lib.js` in the head then use `dump()` instead of `console.log()`
 
 ```
 dump.blue('dump.blue');
