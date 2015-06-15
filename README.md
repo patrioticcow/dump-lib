@@ -29,9 +29,9 @@ dump.primary5x('dump.primary5x');
 dump.primary6x('dump.primary6x');
 ```
 
-![Image of Yaktocat](https://github.com/patrioticcow/dump-lib/blob/master/screen_a.png)
+![Image of Yaktocat](https://github.com/patrioticcow/dump-lib/blob/master/img/screen_a.png)
 
-![Image of Yaktocat](https://github.com/patrioticcow/dump-lib/blob/master/screen_b.png)
+![Image of Yaktocat](https://github.com/patrioticcow/dump-lib/blob/master/img/screen_b.png)
 
 ## How to change the colors
 
