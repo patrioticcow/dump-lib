@@ -53,6 +53,7 @@
 		var color = colors[i];
 		return function (data) {
 			console.log('%c ' + JSON.stringify(data), 'background: ' + color.value.background + '; color: ' + color.value.color);
+
 			return data;
 		};
 	}
@@ -62,6 +63,7 @@
 
 		return function (data) {
 			console.log('%c ' + JSON.stringify(data), 'background: ' + color.value.background + '; color: ' + color.value.color + ';font-size:' + j + 'px');
+
 			return data;
 		};
 	}
