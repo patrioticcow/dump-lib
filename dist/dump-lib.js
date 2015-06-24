@@ -1,6 +1,6 @@
 /**
  * name: dump-lib
- * version: 0.0.7
+ * version: 0.0.8
  * developer: Cristi Catea
  * website: massinflux.com
  * github: https://github.com/patrioticcow/dump-lib
@@ -52,7 +52,7 @@
 	function dumpFactory(i) {
 		var color = colors[i];
 		return function (data) {
-			console.log('%c ' + data, 'background: ' + color.value.background + '; color: ' + color.value.color);
+			console.log('%c ' + JSON.stringify(data), 'background: ' + color.value.background + '; color: ' + color.value.color);
 			return data;
 		};
 	}
@@ -61,7 +61,7 @@
 		var color = colors[i];
 
 		return function (data) {
-			console.log('%c ' + data, 'background: ' + color.value.background + '; color: ' + color.value.color + ';font-size:' + j + 'px');
+			console.log('%c ' + JSON.stringify(data), 'background: ' + color.value.background + '; color: ' + color.value.color + ';font-size:' + j + 'px');
 			return data;
 		};
 	}
